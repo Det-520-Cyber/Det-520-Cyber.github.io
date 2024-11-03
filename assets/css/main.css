@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    background-color: #0d1255;
+    font-family: monospace;
+    color: #cccccc;
+}
+
+.title {
+    display: block;
+    height: 50vh;
+    border-bottom: solid 2px #cccccc;
+}
