@@ -4,64 +4,6 @@ layout: home
 
 # Hello There
 
-This is some filler text
+This is the home site of the cyber team for the i5 Space Carl Sagan Squadron at Cornell University.
 
-This is some filler text
-
-This is some filler text
-
-This is some filler text
-
-This is some filler text
-
-This is some filler text
-
-This is some filler text
-
-This is some filler text
-
-This is some filler text
-
-This is some filler text
-
-This is some filler text
-
-This is some filler text
-
-This is some filler text
-
-This is some filler text
-
-This is some filler text
-
-This is some filler text
-
-This is some filler text
-
-This is some filler text
-
-This is some filler text
-
-This is some filler text
-
-This is some filler text
-
-This is some filler text
-
-This is some filler text
-
-This is some filler text
-
-This is some filler text
-
-This is some filler text
-
-This is some filler text
-
-This is some filler text
-
-This is some filler text
-
-This is some filler text
-
-This is some filler text
+Freely view lessons and writeups about cybersecurity.

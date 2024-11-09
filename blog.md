@@ -2,7 +2,7 @@
 layout: default
 title: Blog
 permalink: /blog/
-command: "cywarrior@det520:~/blog"
+command: "cywarrior@det520:~/blog$ ls"
 ---
 
 # Blog
