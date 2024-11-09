@@ -3,10 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>DET520 Cyber @ Cornell University</title>
     <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/navbar.css">
 </head>
 <body>
+    <div class="top-half-container">
     <div class="title">
         <p class="ascii">
             ░▒▓███████▓▒░░▒▓████████▓▒░▒▓████████▓▒░▒▓████████▓▒░▒▓███████▓▒░░▒▓████████▓▒░</br>
@@ -19,5 +21,9 @@
         </p>
         <p>i5 Space Carl Sagan Squadron @ Cornell University</p>
     </div>
+    </div>
+    {% include navbar.html %}
+    {% include commandline.html command="cywarrior@det520:~$" %}
+    <div class="content">{{content}}</div>
 </body>
 </html>

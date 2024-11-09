@@ -1,0 +1,26 @@
+nav {
+    display: block;
+    overflow: hidden;
+    height: 50px;
+    border-bottom: solid 1px var(--text);
+    position: sticky;
+    top: 0;
+    background-color: var(--secondary-background);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: calc(var(--left-margin) - 20px);
+}
+
+nav a {
+    display: block;
+    padding: 10px 20px;
+    height: 50px;
+    box-sizing: border-box;
+}
+
+nav li {
+    float: left;
+}
