@@ -1,10 +1,11 @@
 ---
 layout: default
-title: lessons
+title: Lessons
 permalink: /lessons/
 command: "cywarrior@det520:~/lessons$"
 ---
 
 # Lessons
 
-Some text here
+- [CTF Fundamentals]({% link lessons/ctf-fundamentals.md %})
+- [Networks]({% link lessons/networks.md %})

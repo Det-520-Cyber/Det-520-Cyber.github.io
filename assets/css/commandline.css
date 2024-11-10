@@ -1,0 +1,13 @@
+.commandline {
+    color: var(--tertiary);
+    display: block;
+    padding-left: var(--left-margin);
+    margin: 0;
+    height: 50px;
+    border-bottom: solid 1px var(--text);
+    line-height: 50px;
+    position: sticky;
+    top: 51px;
+    background-color: var(--secondary-background);
+    z-index: 1;
+}

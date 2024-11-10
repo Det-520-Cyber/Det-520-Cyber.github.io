@@ -6,6 +6,9 @@
     <title>DET520 Cyber @ Cornell University</title>
     <link rel="stylesheet" href="/assets/css/main.css">
     <link rel="stylesheet" href="/assets/css/navbar.css">
+    <link rel="stylesheet" href="/assets/css/commandline.css">
+    <link rel="stylesheet" href="/assets/css/home.css">
+    <link rel="stylesheet" href="/assets/css/footer.css">
 </head>
 <body>
     <div class="top-half-container">
@@ -19,11 +22,13 @@
             ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;░▒▓█▓▒░&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;░▒▓█▓▒░▒▓█▓▒░&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;░▒▓█▓▒░░▒▓█▓▒░</br>
             ░▒▓███████▓▒░░▒▓████████▓▒░&nbsp;&nbsp;░▒▓█▓▒░&nbsp;&nbsp;&nbsp;░▒▓███████▓▒░░▒▓████████▓▒░▒▓████████▓▒░
         </p>
+        <h1 class="alt-ascii">DET 520</h1>
         <p>i5 Space Carl Sagan Squadron @ Cornell University</p>
     </div>
     </div>
     {% include navbar.html %}
     {% include commandline.html command="cywarrior@det520:~$" %}
     <div class="content">{{content}}</div>
+    {% include footer.html %}
 </body>
 </html>

@@ -3,13 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{title}}</title>
+    <title>{{page.title}} | DET 520 Cyber</title>
     <link rel="stylesheet" href="/assets/css/main.css">
     <link rel="stylesheet" href="/assets/css/navbar.css">
+    <link rel="stylesheet" href="/assets/css/commandline.css">
+    <link rel="stylesheet" href="/assets/css/footer.css">
 </head>
 <body>
     {% include navbar.html %}
     {% include commandline.html command=page.command %}
     <div class="content">{{content}}</div>
+    {% include footer.html %}
 </body>
 </html>

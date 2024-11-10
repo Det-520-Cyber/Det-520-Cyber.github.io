@@ -1,0 +1,10 @@
+footer {
+    display: block;
+    padding: 0 var(--left-margin);
+    border-top: solid 1px var(--text);
+    background-color: var(--secondary-background);
+}
+
+footer p {
+    display: inline-block;
+}

@@ -1,0 +1,29 @@
+.top-half-container {
+    display: flex;
+    height: 50vh;
+    border-bottom: solid 1px var(--text);
+}
+
+.title {
+    margin-left: var(--left-margin);
+    display: block;
+    align-self: self-end;
+}
+
+.ascii {
+    display: block;
+}
+
+.alt-ascii {
+    display: none;
+}
+
+@media (max-width:1100px) {
+    .ascii {
+        display: none;
+    }
+    
+    .alt-ascii {
+        display: block;
+    }
+}
