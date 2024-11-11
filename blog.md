@@ -7,8 +7,6 @@ command: "cywarrior@det520:~/blog$ ls"
 
 # Blog
 
-Some text here
-
 <ul>
   {% for post in site.posts %}
     <li>
